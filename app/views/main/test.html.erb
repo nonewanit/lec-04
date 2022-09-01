@@ -1,0 +1,12 @@
+<%= form_with url: "/main/test2", data: {turbo:false} do |form| %>
+	<%= form.text_field :name1 %>
+	<%= form.text_field :score1 %>
+	<br>
+	<%= form.text_field :name2 %>
+	<%= form.text_field :score2 %>
+	<br>
+	<%= form.text_field :name3 %>
+	<%= form.text_field :score3 %>
+	<br>
+	<%= form.submit "Submit" %>
+<% end %>
